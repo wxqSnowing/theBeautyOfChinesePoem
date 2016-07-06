@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>poemName</key>
+		<string>李白</string>
+		<key>poetry</key>
+		<string>静夜思</string>
+		<key>poet</key>
+		<string>床前明月光，疑是地上霜，举头望明月，低头思故乡</string>
+	</dict>
+	<dict>
+		<key>poemName</key>
+		<string>李绅</string>
+		<key>poetry</key>
+		<string>悯农</string>
+		<key>poet</key>
+		<string>锄禾日当午，汗滴禾下土，谁知盘中餐，粒粒皆辛苦</string>
+	</dict>
+	<dict>
+		<key>poemName</key>
+		<string>孟浩然</string>
+		<key>poetry</key>
+		<string>春晓</string>
+		<key>poet</key>
+		<string>春眠不觉晓，处处闻啼鸟，夜来风雨声，花落知多少</string>
+	</dict>
+	<dict>
+		<key>poemName</key>
+		<string>杜甫</string>
+		<key>poetry</key>
+		<string>绝句</string>
+		<key>poet</key>
+		<string>两个黄鹂鸣翠柳，一行白鹭上青天，窗含西岭千秋雪，门泊东吴万里船。
+窗含西岭千秋雪，门泊东吴万里船。</string>
+	</dict>
+	<dict>
+		<key>poemName</key>
+		<string>贺知章</string>
+		<key>poetry</key>
+		<string>咏鹅</string>
+		<key>poet</key>
+		<string>鹅，鹅，鹅，曲项向天歌，白毛浮绿水，红掌拨清波</string>
+	</dict>
+	<dict>
+		<key>poemName</key>
+		<string>杨万里</string>
+		<key>poetry</key>
+		<string>小池</string>
+		<key>poet</key>
+		<string>泉眼无声惜细流，树阴照水爱晴柔。小荷才露尖尖角，早有蜻蜓立上头。</string>
+	</dict>
+</array>
+</plist>

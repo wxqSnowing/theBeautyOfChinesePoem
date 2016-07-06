@@ -1,0 +1,18 @@
+//
+//  poetryPrefixHeader.pch
+//  PurePoetry
+//
+//  Created by 吴雪琴 on 16/5/29.
+//  Copyright © 2016年 PureTime. All rights reserved.
+//
+
+#ifndef poetryPrefixHeader_pch
+#define poetryPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//屏幕的宽度与高度
+#define UISCREE_WIDTH [UIScreen mainScreen].bounds.size.width
+#define UISCREE_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#endif /* poetryPrefixHeader_pch */

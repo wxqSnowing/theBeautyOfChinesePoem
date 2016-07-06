@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E424238E1CFD80CA00D6257F /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E424238D1CFD80CA00D6257F /* AboutUsViewController.swift */; };
+		E42423901CFD86A600D6257F /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = E424238F1CFD86A600D6257F /* start.png */; };
+		E42423921CFD8CB300D6257F /* aboutUs.png in Resources */ = {isa = PBXBuildFile; fileRef = E42423911CFD8CB300D6257F /* aboutUs.png */; };
+		E42ABC1C1CFBD3F600D37504 /* 静夜思.png in Resources */ = {isa = PBXBuildFile; fileRef = E42ABC1B1CFBD3F600D37504 /* 静夜思.png */; };
+		E42ABC201CFBD40700D37504 /* 悯农.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E42ABC1E1CFBD40700D37504 /* 悯农.jpg */; };
+		E42ABC221CFBE5EC00D37504 /* chooseRight.png in Resources */ = {isa = PBXBuildFile; fileRef = E42ABC211CFBE5EC00D37504 /* chooseRight.png */; };
+		E42ABC261CFBE72E00D37504 /* chooseLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = E42ABC251CFBE72E00D37504 /* chooseLeft.png */; };
+		E42ABC281CFBEAA700D37504 /* resultRight.png in Resources */ = {isa = PBXBuildFile; fileRef = E42ABC271CFBEAA700D37504 /* resultRight.png */; };
+		E42ABC2A1CFBEAF700D37504 /* resultLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = E42ABC291CFBEAF700D37504 /* resultLeft.png */; };
+		E42ABC2C1CFBEDDB00D37504 /* startRight.png in Resources */ = {isa = PBXBuildFile; fileRef = E42ABC2B1CFBEDDB00D37504 /* startRight.png */; };
+		E42ABC2E1CFBEDE200D37504 /* startLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = E42ABC2D1CFBEDE200D37504 /* startLeft.png */; };
+		E42ABC301CFBEFC900D37504 /* GameEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42ABC2F1CFBEFC900D37504 /* GameEndViewController.swift */; };
+		E42ABC321CFBF50800D37504 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E42ABC311CFBF50800D37504 /* AppIcon.png */; };
+		E42ABC361CFBF80200D37504 /* 咏鹅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E42ABC351CFBF80200D37504 /* 咏鹅.jpg */; };
+		E44795341CFC365A00C0FCD0 /* flyBirds.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E44795331CFC365A00C0FCD0 /* flyBirds.atlas */; };
+		E44795361CFC377500C0FCD0 /* e.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E44795351CFC377500C0FCD0 /* e.atlas */; };
+		E44795381CFC413600C0FCD0 /* qt.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E44795371CFC413600C0FCD0 /* qt.atlas */; };
+		E4839EF21CFC2C3B006FA1FE /* ship.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E4839EEF1CFC2C3B006FA1FE /* ship.atlas */; };
+		E4839EF51CFC30CC006FA1FE /* flower.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E4839EF41CFC30CC006FA1FE /* flower.atlas */; };
+		E4A11BE31CFC680B0090A9F9 /* bailu.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E4A11BE21CFC680B0090A9F9 /* bailu.atlas */; };
+		E4A11BE51CFC68980090A9F9 /* rain.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E4A11BE41CFC68980090A9F9 /* rain.atlas */; };
+		E4A11BE71CFC68AB0090A9F9 /* chuhe.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E4A11BE61CFC68AB0090A9F9 /* chuhe.atlas */; };
+		E4A11BE91CFC68CA0090A9F9 /* liu.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E4A11BE81CFC68CA0090A9F9 /* liu.atlas */; };
+		E4BCBB8A1CFB00500000530B /* resultBP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4BCBB891CFB00500000530B /* resultBP.jpg */; };
+		E4BCBB8D1CFB1B200000530B /* birds.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E4BCBB8C1CFB1B200000530B /* birds.atlas */; };
+		E4BCBB911CFB3EC20000530B /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BCBB901CFB3EC20000530B /* GuideViewController.swift */; };
+		E4EBF9771CFAE6E2004C4619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF9761CFAE6E2004C4619 /* AppDelegate.swift */; };
+		E4EBF97C1CFAE6E2004C4619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EBF97A1CFAE6E2004C4619 /* Main.storyboard */; };
+		E4EBF97E1CFAE6E2004C4619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4EBF97D1CFAE6E2004C4619 /* Assets.xcassets */; };
+		E4EBF9811CFAE6E2004C4619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EBF97F1CFAE6E2004C4619 /* LaunchScreen.storyboard */; };
+		E4EBF98C1CFAE6E2004C4619 /* PurePoetryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF98B1CFAE6E2004C4619 /* PurePoetryTests.swift */; };
+		E4EBF9971CFAE6E2004C4619 /* PurePoetryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF9961CFAE6E2004C4619 /* PurePoetryUITests.swift */; };
+		E4EBF9A51CFAE6F8004C4619 /* launch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4EBF9A41CFAE6F8004C4619 /* launch.mp4 */; };
+		E4EBF9A81CFAE7DE004C4619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF9A71CFAE7DE004C4619 /* ViewController.swift */; };
+		E4EBF9AB1CFAEBCC004C4619 /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF9AA1CFAEBCC004C4619 /* ChooseViewController.swift */; };
+		E4EBF9AE1CFAEDBA004C4619 /* poem.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4EBF9AD1CFAEDBA004C4619 /* poem.plist */; };
+		E4EBF9B01CFAEEC6004C4619 /* Poetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF9AF1CFAEEC6004C4619 /* Poetry.swift */; };
+		E4EBF9B21CFAEEFD004C4619 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF9B11CFAEEFD004C4619 /* GameScene.swift */; };
+		E4EBF9B41CFAEF2C004C4619 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF9B31CFAEF2C004C4619 /* GameElements.swift */; };
+		E4EBF9B61CFAEF54004C4619 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF9B51CFAEF54004C4619 /* GameViewController.swift */; };
+		E4EBF9B81CFAEF87004C4619 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF9B71CFAEF87004C4619 /* ResultViewController.swift */; };
+		E4EBF9C41CFAF393004C4619 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4EBF9C31CFAF393004C4619 /* GameScene.sks */; };
+		E4EBF9C81CFAF809004C4619 /* start.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EBF9C71CFAF809004C4619 /* start.jpg */; };
+		E4EE6C961CFBB16F00F46E3F /* GeneralDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE6C951CFBB16F00F46E3F /* GeneralDefine.swift */; };
+		E4EF39721CFD548E00F48E94 /* chosebg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EF39711CFD548E00F48E94 /* chosebg.jpg */; };
+		E4EF39761CFD652900F48E94 /* 春晓.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EF39751CFD652900F48E94 /* 春晓.jpg */; };
+		E4EF39781CFD654600F48E94 /* 小池.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EF39771CFD654600F48E94 /* 小池.png */; };
+		E4EF397A1CFD6A7700F48E94 /* 绝句.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EF39791CFD6A7700F48E94 /* 绝句.png */; };
+		E4EF397C1CFD702E00F48E94 /* hometown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EF397B1CFD702E00F48E94 /* hometown.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4EBF9881CFAE6E2004C4619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4EBF96B1CFAE6E2004C4619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4EBF9721CFAE6E2004C4619;
+			remoteInfo = PurePoetry;
+		};
+		E4EBF9931CFAE6E2004C4619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4EBF96B1CFAE6E2004C4619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4EBF9721CFAE6E2004C4619;
+			remoteInfo = PurePoetry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E424238D1CFD80CA00D6257F /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		E424238F1CFD86A600D6257F /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		E42423911CFD8CB300D6257F /* aboutUs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutUs.png; sourceTree = "<group>"; };
+		E42ABC1B1CFBD3F600D37504 /* 静夜思.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "静夜思.png"; sourceTree = "<group>"; };
+		E42ABC1E1CFBD40700D37504 /* 悯农.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "悯农.jpg"; sourceTree = "<group>"; };
+		E42ABC211CFBE5EC00D37504 /* chooseRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chooseRight.png; sourceTree = "<group>"; };
+		E42ABC251CFBE72E00D37504 /* chooseLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chooseLeft.png; sourceTree = "<group>"; };
+		E42ABC271CFBEAA700D37504 /* resultRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resultRight.png; sourceTree = "<group>"; };
+		E42ABC291CFBEAF700D37504 /* resultLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resultLeft.png; sourceTree = "<group>"; };
+		E42ABC2B1CFBEDDB00D37504 /* startRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startRight.png; sourceTree = "<group>"; };
+		E42ABC2D1CFBEDE200D37504 /* startLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startLeft.png; sourceTree = "<group>"; };
+		E42ABC2F1CFBEFC900D37504 /* GameEndViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameEndViewController.swift; sourceTree = "<group>"; };
+		E42ABC311CFBF50800D37504 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		E42ABC351CFBF80200D37504 /* 咏鹅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "咏鹅.jpg"; sourceTree = "<group>"; };
+		E44795331CFC365A00C0FCD0 /* flyBirds.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = flyBirds.atlas; sourceTree = "<group>"; };
+		E44795351CFC377500C0FCD0 /* e.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = e.atlas; sourceTree = "<group>"; };
+		E44795371CFC413600C0FCD0 /* qt.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = qt.atlas; sourceTree = "<group>"; };
+		E4839EEF1CFC2C3B006FA1FE /* ship.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ship.atlas; sourceTree = "<group>"; };
+		E4839EF41CFC30CC006FA1FE /* flower.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = flower.atlas; sourceTree = "<group>"; };
+		E4A11BE21CFC680B0090A9F9 /* bailu.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = bailu.atlas; path = ../bailu.atlas; sourceTree = "<group>"; };
+		E4A11BE41CFC68980090A9F9 /* rain.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = rain.atlas; sourceTree = "<group>"; };
+		E4A11BE61CFC68AB0090A9F9 /* chuhe.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = chuhe.atlas; sourceTree = "<group>"; };
+		E4A11BE81CFC68CA0090A9F9 /* liu.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = liu.atlas; sourceTree = "<group>"; };
+		E4BCBB891CFB00500000530B /* resultBP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resultBP.jpg; sourceTree = "<group>"; };
+		E4BCBB8B1CFB0F890000530B /* poetryPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = poetryPrefixHeader.pch; sourceTree = "<group>"; };
+		E4BCBB8C1CFB1B200000530B /* birds.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = birds.atlas; sourceTree = "<group>"; };
+		E4BCBB901CFB3EC20000530B /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuideViewController.swift; path = ../GuideViewController.swift; sourceTree = "<group>"; };
+		E4EBF9731CFAE6E2004C4619 /* PurePoetry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurePoetry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EBF9761CFAE6E2004C4619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4EBF97B1CFAE6E2004C4619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4EBF97D1CFAE6E2004C4619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4EBF9801CFAE6E2004C4619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4EBF9821CFAE6E2004C4619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EBF9871CFAE6E2004C4619 /* PurePoetryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PurePoetryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EBF98B1CFAE6E2004C4619 /* PurePoetryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurePoetryTests.swift; sourceTree = "<group>"; };
+		E4EBF98D1CFAE6E2004C4619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EBF9921CFAE6E2004C4619 /* PurePoetryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PurePoetryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EBF9961CFAE6E2004C4619 /* PurePoetryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurePoetryUITests.swift; sourceTree = "<group>"; };
+		E4EBF9981CFAE6E2004C4619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EBF9A41CFAE6F8004C4619 /* launch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = launch.mp4; sourceTree = "<group>"; };
+		E4EBF9A71CFAE7DE004C4619 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4EBF9AA1CFAEBCC004C4619 /* ChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
+		E4EBF9AD1CFAEDBA004C4619 /* poem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = poem.plist; sourceTree = "<group>"; };
+		E4EBF9AF1CFAEEC6004C4619 /* Poetry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poetry.swift; sourceTree = "<group>"; };
+		E4EBF9B11CFAEEFD004C4619 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E4EBF9B31CFAEF2C004C4619 /* GameElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		E4EBF9B51CFAEF54004C4619 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E4EBF9B71CFAEF87004C4619 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		E4EBF9C31CFAF393004C4619 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E4EBF9C71CFAF809004C4619 /* start.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = start.jpg; sourceTree = "<group>"; };
+		E4EE6C951CFBB16F00F46E3F /* GeneralDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralDefine.swift; sourceTree = "<group>"; };
+		E4EF39711CFD548E00F48E94 /* chosebg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chosebg.jpg; sourceTree = "<group>"; };
+		E4EF39751CFD652900F48E94 /* 春晓.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "春晓.jpg"; sourceTree = "<group>"; };
+		E4EF39771CFD654600F48E94 /* 小池.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小池.png"; sourceTree = "<group>"; };
+		E4EF39791CFD6A7700F48E94 /* 绝句.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "绝句.png"; sourceTree = "<group>"; };
+		E4EF397B1CFD702E00F48E94 /* hometown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hometown.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4EBF9701CFAE6E2004C4619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBF9841CFAE6E2004C4619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBF98F1CFAE6E2004C4619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E48B15921D22D161004223B3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				E4A11BE81CFC68CA0090A9F9 /* liu.atlas */,
+				E4A11BE61CFC68AB0090A9F9 /* chuhe.atlas */,
+				E4A11BE41CFC68980090A9F9 /* rain.atlas */,
+				E4A11BE21CFC680B0090A9F9 /* bailu.atlas */,
+				E44795371CFC413600C0FCD0 /* qt.atlas */,
+				E44795351CFC377500C0FCD0 /* e.atlas */,
+				E44795331CFC365A00C0FCD0 /* flyBirds.atlas */,
+				E4839EF41CFC30CC006FA1FE /* flower.atlas */,
+				E4839EEF1CFC2C3B006FA1FE /* ship.atlas */,
+				E4BCBB8C1CFB1B200000530B /* birds.atlas */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		E4EBF96A1CFAE6E2004C4619 = {
+			isa = PBXGroup;
+			children = (
+				E4EBF9751CFAE6E2004C4619 /* PurePoetry */,
+				E4EBF98A1CFAE6E2004C4619 /* PurePoetryTests */,
+				E4EBF9951CFAE6E2004C4619 /* PurePoetryUITests */,
+				E4EBF9741CFAE6E2004C4619 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4EBF9741CFAE6E2004C4619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4EBF9731CFAE6E2004C4619 /* PurePoetry.app */,
+				E4EBF9871CFAE6E2004C4619 /* PurePoetryTests.xctest */,
+				E4EBF9921CFAE6E2004C4619 /* PurePoetryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4EBF9751CFAE6E2004C4619 /* PurePoetry */ = {
+			isa = PBXGroup;
+			children = (
+				E48B15921D22D161004223B3 /* New Group */,
+				E4EBF9BA1CFAF19E004C4619 /* Resource */,
+				E4EBF9B91CFAEFD5004C4619 /* Start */,
+				E4EBF9AC1CFAED6A004C4619 /* Game */,
+				E4EBF9761CFAE6E2004C4619 /* AppDelegate.swift */,
+				E4BCBB8B1CFB0F890000530B /* poetryPrefixHeader.pch */,
+				E4EBF97A1CFAE6E2004C4619 /* Main.storyboard */,
+				E4EBF97D1CFAE6E2004C4619 /* Assets.xcassets */,
+				E4EBF97F1CFAE6E2004C4619 /* LaunchScreen.storyboard */,
+				E4EBF9821CFAE6E2004C4619 /* Info.plist */,
+				E4EE6C951CFBB16F00F46E3F /* GeneralDefine.swift */,
+			);
+			path = PurePoetry;
+			sourceTree = "<group>";
+		};
+		E4EBF98A1CFAE6E2004C4619 /* PurePoetryTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4EBF98B1CFAE6E2004C4619 /* PurePoetryTests.swift */,
+				E4EBF98D1CFAE6E2004C4619 /* Info.plist */,
+			);
+			path = PurePoetryTests;
+			sourceTree = "<group>";
+		};
+		E4EBF9951CFAE6E2004C4619 /* PurePoetryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4EBF9961CFAE6E2004C4619 /* PurePoetryUITests.swift */,
+				E4EBF9981CFAE6E2004C4619 /* Info.plist */,
+			);
+			path = PurePoetryUITests;
+			sourceTree = "<group>";
+		};
+		E4EBF9AC1CFAED6A004C4619 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				E4EBF9AD1CFAEDBA004C4619 /* poem.plist */,
+				E4EBF9C31CFAF393004C4619 /* GameScene.sks */,
+				E4EBF9AF1CFAEEC6004C4619 /* Poetry.swift */,
+				E4EBF9B51CFAEF54004C4619 /* GameViewController.swift */,
+				E4EBF9B11CFAEEFD004C4619 /* GameScene.swift */,
+				E4EBF9B31CFAEF2C004C4619 /* GameElements.swift */,
+				E4EBF9B71CFAEF87004C4619 /* ResultViewController.swift */,
+				E42ABC2F1CFBEFC900D37504 /* GameEndViewController.swift */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		E4EBF9B91CFAEFD5004C4619 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				E4BCBB901CFB3EC20000530B /* GuideViewController.swift */,
+				E4EBF9A41CFAE6F8004C4619 /* launch.mp4 */,
+				E4EBF9A71CFAE7DE004C4619 /* ViewController.swift */,
+				E4EBF9AA1CFAEBCC004C4619 /* ChooseViewController.swift */,
+				E424238D1CFD80CA00D6257F /* AboutUsViewController.swift */,
+			);
+			name = Start;
+			sourceTree = "<group>";
+		};
+		E4EBF9BA1CFAF19E004C4619 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E42ABC311CFBF50800D37504 /* AppIcon.png */,
+				E4EF39751CFD652900F48E94 /* 春晓.jpg */,
+				E4EF39711CFD548E00F48E94 /* chosebg.jpg */,
+				E42423911CFD8CB300D6257F /* aboutUs.png */,
+				E4EF39771CFD654600F48E94 /* 小池.png */,
+				E42ABC291CFBEAF700D37504 /* resultLeft.png */,
+				E42ABC271CFBEAA700D37504 /* resultRight.png */,
+				E424238F1CFD86A600D6257F /* start.png */,
+				E4EF397B1CFD702E00F48E94 /* hometown.jpg */,
+				E4EF39791CFD6A7700F48E94 /* 绝句.png */,
+				E42ABC2D1CFBEDE200D37504 /* startLeft.png */,
+				E42ABC211CFBE5EC00D37504 /* chooseRight.png */,
+				E42ABC251CFBE72E00D37504 /* chooseLeft.png */,
+				E42ABC2B1CFBEDDB00D37504 /* startRight.png */,
+				E42ABC351CFBF80200D37504 /* 咏鹅.jpg */,
+				E4BCBB891CFB00500000530B /* resultBP.jpg */,
+				E42ABC1E1CFBD40700D37504 /* 悯农.jpg */,
+				E42ABC1B1CFBD3F600D37504 /* 静夜思.png */,
+				E4EBF9C71CFAF809004C4619 /* start.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4EBF9721CFAE6E2004C4619 /* PurePoetry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EBF99B1CFAE6E2004C4619 /* Build configuration list for PBXNativeTarget "PurePoetry" */;
+			buildPhases = (
+				E4EBF96F1CFAE6E2004C4619 /* Sources */,
+				E4EBF9701CFAE6E2004C4619 /* Frameworks */,
+				E4EBF9711CFAE6E2004C4619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PurePoetry;
+			productName = PurePoetry;
+			productReference = E4EBF9731CFAE6E2004C4619 /* PurePoetry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4EBF9861CFAE6E2004C4619 /* PurePoetryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EBF99E1CFAE6E2004C4619 /* Build configuration list for PBXNativeTarget "PurePoetryTests" */;
+			buildPhases = (
+				E4EBF9831CFAE6E2004C4619 /* Sources */,
+				E4EBF9841CFAE6E2004C4619 /* Frameworks */,
+				E4EBF9851CFAE6E2004C4619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EBF9891CFAE6E2004C4619 /* PBXTargetDependency */,
+			);
+			name = PurePoetryTests;
+			productName = PurePoetryTests;
+			productReference = E4EBF9871CFAE6E2004C4619 /* PurePoetryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4EBF9911CFAE6E2004C4619 /* PurePoetryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EBF9A11CFAE6E2004C4619 /* Build configuration list for PBXNativeTarget "PurePoetryUITests" */;
+			buildPhases = (
+				E4EBF98E1CFAE6E2004C4619 /* Sources */,
+				E4EBF98F1CFAE6E2004C4619 /* Frameworks */,
+				E4EBF9901CFAE6E2004C4619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EBF9941CFAE6E2004C4619 /* PBXTargetDependency */,
+			);
+			name = PurePoetryUITests;
+			productName = PurePoetryUITests;
+			productReference = E4EBF9921CFAE6E2004C4619 /* PurePoetryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4EBF96B1CFAE6E2004C4619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = PureTime;
+				TargetAttributes = {
+					E4EBF9721CFAE6E2004C4619 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E4EBF9861CFAE6E2004C4619 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E4EBF9721CFAE6E2004C4619;
+					};
+					E4EBF9911CFAE6E2004C4619 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E4EBF9721CFAE6E2004C4619;
+					};
+				};
+			};
+			buildConfigurationList = E4EBF96E1CFAE6E2004C4619 /* Build configuration list for PBXProject "PurePoetry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4EBF96A1CFAE6E2004C4619;
+			productRefGroup = E4EBF9741CFAE6E2004C4619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4EBF9721CFAE6E2004C4619 /* PurePoetry */,
+				E4EBF9861CFAE6E2004C4619 /* PurePoetryTests */,
+				E4EBF9911CFAE6E2004C4619 /* PurePoetryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4EBF9711CFAE6E2004C4619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42423921CFD8CB300D6257F /* aboutUs.png in Resources */,
+				E44795381CFC413600C0FCD0 /* qt.atlas in Resources */,
+				E42ABC321CFBF50800D37504 /* AppIcon.png in Resources */,
+				E42ABC201CFBD40700D37504 /* 悯农.jpg in Resources */,
+				E42ABC361CFBF80200D37504 /* 咏鹅.jpg in Resources */,
+				E42ABC2E1CFBEDE200D37504 /* startLeft.png in Resources */,
+				E4A11BE51CFC68980090A9F9 /* rain.atlas in Resources */,
+				E42ABC2C1CFBEDDB00D37504 /* startRight.png in Resources */,
+				E4839EF21CFC2C3B006FA1FE /* ship.atlas in Resources */,
+				E4EF39781CFD654600F48E94 /* 小池.png in Resources */,
+				E44795341CFC365A00C0FCD0 /* flyBirds.atlas in Resources */,
+				E44795361CFC377500C0FCD0 /* e.atlas in Resources */,
+				E42ABC261CFBE72E00D37504 /* chooseLeft.png in Resources */,
+				E4EF39721CFD548E00F48E94 /* chosebg.jpg in Resources */,
+				E4EBF9A51CFAE6F8004C4619 /* launch.mp4 in Resources */,
+				E4EF39761CFD652900F48E94 /* 春晓.jpg in Resources */,
+				E4BCBB8D1CFB1B200000530B /* birds.atlas in Resources */,
+				E4A11BE31CFC680B0090A9F9 /* bailu.atlas in Resources */,
+				E4EBF9AE1CFAEDBA004C4619 /* poem.plist in Resources */,
+				E42423901CFD86A600D6257F /* start.png in Resources */,
+				E42ABC2A1CFBEAF700D37504 /* resultLeft.png in Resources */,
+				E42ABC221CFBE5EC00D37504 /* chooseRight.png in Resources */,
+				E4EF397C1CFD702E00F48E94 /* hometown.jpg in Resources */,
+				E4BCBB8A1CFB00500000530B /* resultBP.jpg in Resources */,
+				E4A11BE91CFC68CA0090A9F9 /* liu.atlas in Resources */,
+				E4839EF51CFC30CC006FA1FE /* flower.atlas in Resources */,
+				E42ABC1C1CFBD3F600D37504 /* 静夜思.png in Resources */,
+				E4EBF9C81CFAF809004C4619 /* start.jpg in Resources */,
+				E4EBF9811CFAE6E2004C4619 /* LaunchScreen.storyboard in Resources */,
+				E42ABC281CFBEAA700D37504 /* resultRight.png in Resources */,
+				E4EF397A1CFD6A7700F48E94 /* 绝句.png in Resources */,
+				E4EBF97E1CFAE6E2004C4619 /* Assets.xcassets in Resources */,
+				E4EBF9C41CFAF393004C4619 /* GameScene.sks in Resources */,
+				E4EBF97C1CFAE6E2004C4619 /* Main.storyboard in Resources */,
+				E4A11BE71CFC68AB0090A9F9 /* chuhe.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBF9851CFAE6E2004C4619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBF9901CFAE6E2004C4619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4EBF96F1CFAE6E2004C4619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EBF9B21CFAEEFD004C4619 /* GameScene.swift in Sources */,
+				E4EBF9A81CFAE7DE004C4619 /* ViewController.swift in Sources */,
+				E4EBF9AB1CFAEBCC004C4619 /* ChooseViewController.swift in Sources */,
+				E4EE6C961CFBB16F00F46E3F /* GeneralDefine.swift in Sources */,
+				E424238E1CFD80CA00D6257F /* AboutUsViewController.swift in Sources */,
+				E4BCBB911CFB3EC20000530B /* GuideViewController.swift in Sources */,
+				E4EBF9B61CFAEF54004C4619 /* GameViewController.swift in Sources */,
+				E4EBF9B01CFAEEC6004C4619 /* Poetry.swift in Sources */,
+				E42ABC301CFBEFC900D37504 /* GameEndViewController.swift in Sources */,
+				E4EBF9B41CFAEF2C004C4619 /* GameElements.swift in Sources */,
+				E4EBF9771CFAE6E2004C4619 /* AppDelegate.swift in Sources */,
+				E4EBF9B81CFAEF87004C4619 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBF9831CFAE6E2004C4619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EBF98C1CFAE6E2004C4619 /* PurePoetryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBF98E1CFAE6E2004C4619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EBF9971CFAE6E2004C4619 /* PurePoetryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EBF9891CFAE6E2004C4619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4EBF9721CFAE6E2004C4619 /* PurePoetry */;
+			targetProxy = E4EBF9881CFAE6E2004C4619 /* PBXContainerItemProxy */;
+		};
+		E4EBF9941CFAE6E2004C4619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4EBF9721CFAE6E2004C4619 /* PurePoetry */;
+			targetProxy = E4EBF9931CFAE6E2004C4619 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4EBF97A1CFAE6E2004C4619 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EBF97B1CFAE6E2004C4619 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4EBF97F1CFAE6E2004C4619 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EBF9801CFAE6E2004C4619 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4EBF9991CFAE6E2004C4619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4EBF99A1CFAE6E2004C4619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4EBF99C1CFAE6E2004C4619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PurePoetry/PurePoetry/poetry.pch;
+				INFOPLIST_FILE = PurePoetry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wxq.study.PurePoetry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E4EBF99D1CFAE6E2004C4619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PurePoetry/PurePoetry/poetry.pch;
+				INFOPLIST_FILE = PurePoetry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wxq.study.PurePoetry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E4EBF99F1CFAE6E2004C4619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PurePoetryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wxq.study.PurePoetryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PurePoetry.app/PurePoetry";
+			};
+			name = Debug;
+		};
+		E4EBF9A01CFAE6E2004C4619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PurePoetryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wxq.study.PurePoetryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PurePoetry.app/PurePoetry";
+			};
+			name = Release;
+		};
+		E4EBF9A21CFAE6E2004C4619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PurePoetryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wxq.study.PurePoetryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PurePoetry;
+			};
+			name = Debug;
+		};
+		E4EBF9A31CFAE6E2004C4619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PurePoetryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wxq.study.PurePoetryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PurePoetry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4EBF96E1CFAE6E2004C4619 /* Build configuration list for PBXProject "PurePoetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EBF9991CFAE6E2004C4619 /* Debug */,
+				E4EBF99A1CFAE6E2004C4619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EBF99B1CFAE6E2004C4619 /* Build configuration list for PBXNativeTarget "PurePoetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EBF99C1CFAE6E2004C4619 /* Debug */,
+				E4EBF99D1CFAE6E2004C4619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EBF99E1CFAE6E2004C4619 /* Build configuration list for PBXNativeTarget "PurePoetryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EBF99F1CFAE6E2004C4619 /* Debug */,
+				E4EBF9A01CFAE6E2004C4619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EBF9A11CFAE6E2004C4619 /* Build configuration list for PBXNativeTarget "PurePoetryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EBF9A21CFAE6E2004C4619 /* Debug */,
+				E4EBF9A31CFAE6E2004C4619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4EBF96B1CFAE6E2004C4619 /* Project object */;
+}
